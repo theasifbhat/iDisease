@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838f5570-dcdf-4106-80c2-b78ecff4f0c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/runners/runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -47,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/runners" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG./Users/asifbhat/selenumProjects/iDisease/runners/runner.xml">
     <configuration name="MainPageTest.testClickOnFlorida" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="iDisease" />
@@ -143,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692191367090</updated>
-      <workItem from="1692191368104" duration="14178000" />
+      <workItem from="1692191368104" duration="14821000" />
     </task>
     <servers />
   </component>
