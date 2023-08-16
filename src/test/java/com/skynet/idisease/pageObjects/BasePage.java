@@ -1,11 +1,10 @@
 package com.skynet.idisease.pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeMethod;
+
 
 import java.time.Duration;
 import java.util.List;
@@ -18,9 +17,6 @@ public class BasePage {
     public BasePage(WebDriver mDriver){
         this.mDriver= mDriver;
         webDriverWait = new WebDriverWait(mDriver, Duration.ofSeconds(10));
-    }
-    public void waitTillElementIsVisible(By locator){
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     public void waitTillElementsAreVisible(List<WebElement> element){
