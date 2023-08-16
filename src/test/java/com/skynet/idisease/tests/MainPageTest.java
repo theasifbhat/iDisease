@@ -1,17 +1,8 @@
 package com.skynet.idisease.tests;
 
+import com.skynet.idisease.pageObjects.State;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import static org.testng.Assert.*;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.time.Duration;
 import java.util.List;
 
 public class MainPageTest extends BaseTest {
@@ -28,17 +19,23 @@ public void testGetAllStatesName(){
 
 @Test
     public void testClickOnCalifornia(){
-    mainPage.clickOnState("California");
+    String stateName = "California";
+    State state = mainPage.clickOnState(stateName);
+    Assert.assertEquals(state.getCurrentStateName().toLowerCase(),stateName.toLowerCase());
 }
 
 @Test
 public void testClickOnNewYork(){
-    mainPage.clickOnState("New York");
+   String stateName = "New York";
+   State state= mainPage.clickOnState(stateName);
+   Assert.assertEquals(state.getCurrentStateName().toLowerCase(),stateName.toLowerCase());
 }
 
 @Test
 public void testClickOnMaryland(){
-    mainPage.clickOnState("Maryland");
+  String stateName = "Maryland";
+  State state=  mainPage.clickOnState(stateName);
+  Assert.assertEquals(state.getCurrentStateName().toLowerCase(),stateName.toLowerCase());
 }
 
 

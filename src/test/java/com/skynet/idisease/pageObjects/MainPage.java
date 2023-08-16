@@ -32,6 +32,7 @@ public class MainPage extends BasePage {
     List<WebElement> stateContainer;
 
 
+
     //methods
 
     public List<String> getAllStatesByName(){
@@ -45,7 +46,7 @@ public class MainPage extends BasePage {
         return stateNames;
     }
 
-    public void clickOnState(String state){
+    public State clickOnState(String state){
         waitTillElementIsVisible(iFrame);
         mDriver.switchTo().frame(iFrame);
         waitTillElementsAreVisible(stateContainer);
@@ -56,6 +57,8 @@ public class MainPage extends BasePage {
         }
             //can be further optimized to stop immediately when the element is found
         });
+        mDriver.switchTo().defaultContent();
+        return new State(mDriver);
     }
 
 

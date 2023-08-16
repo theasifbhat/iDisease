@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838f5570-dcdf-4106-80c2-b78ecff4f0c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/skynet/idisease/pageObjects/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skynet/idisease/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skynet/idisease/pageObjects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skynet/idisease/tests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skynet/idisease/tests/MainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
       <recent name="$PROJECT_DIR$/runners" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/asifbhat/selenumProjects/iDisease/runners/runner.xml">
-    <configuration name="MainPageTest.testClickOnFlorida" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MainPageTest.testClickOnCalifornia">
+    <configuration name="MainPageTest.testClickOnCalifornia" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="iDisease" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +68,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.skynet.idisease.tests" />
       <option name="MAIN_CLASS_NAME" value="com.skynet.idisease.tests.MainPageTest" />
-      <option name="METHOD_NAME" value="testClickOnFlorida" />
+      <option name="METHOD_NAME" value="testClickOnCalifornia" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/asifbhat/selenumProjects/iDisease/runners/runner.xml" />
-        <item itemvalue="TestNG./Users/asifbhat/selenumProjects/iDisease/src/test/java/com/skynet/runners/runner.xml" />
-        <item itemvalue="TestNG.MainPageTest.testClickOnFlorida" />
+        <item itemvalue="TestNG.MainPageTest.testClickOnCalifornia" />
         <item itemvalue="TestNG.MainPageTest.testClickOnMaryland" />
         <item itemvalue="TestNG.MainPageTest.testClickOnNewYork" />
+        <item itemvalue="TestNG./Users/asifbhat/selenumProjects/iDisease/runners/runner.xml" />
+        <item itemvalue="TestNG./Users/asifbhat/selenumProjects/iDisease/src/test/java/com/skynet/runners/runner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692191367090</updated>
-      <workItem from="1692191368104" duration="14821000" />
+      <workItem from="1692191368104" duration="17293000" />
     </task>
     <servers />
   </component>
